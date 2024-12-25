@@ -1,0 +1,18 @@
+// Spinning Ring Animation
+@keyframes ring_spin {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+//Logos Section Animation
+@keyframes logo_carousel {
+    from {
+        transform: translateX(1100px);
+    }
+    to {
+        transform: translateX(-1100px);
+    }
+}
